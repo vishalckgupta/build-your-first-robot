@@ -1,6 +1,6 @@
-# 🤖 Build Your First Robot — Arduino Line Follower
+# 🤖 Build Your First Robot — Line Follower AND Obstacle Avoider
 
-**A beginner-friendly, four-part robotics tutorial series** covering components, electronics testing, mechanical design, wiring, assembly, programming, and debugging.
+This is **A beginner-friendly, four-part robotics tutorial series** covering components, electronics testing, mechanical design, wiring, assembly, programming, and debugging.
 
 This project builds a two-wheel-drive robot around an **Arduino Uno** and **L298N motor driver**. Two downward-facing IR sensors are intended for **line detection**, while two forward-facing IR proximity sensors are intended for **obstacle detection**. A castor wheel supports the chassis.
 
@@ -45,8 +45,8 @@ The videos use **Hindi with English technical terms** and are intended for stude
 
 ```text
   Left + right line sensors ─┐
-                            ├──> Arduino Uno ──> L298N ──> Left motor
-  Left + right obstacle ────┘                  └──> Right motor
+                             ├──> Arduino Uno ──> L298N ──> Left motor
+  Left + right obstacle ─-───┘                        └-──> Right motor
   sensors
 
   Battery / power system ──> suitable power inputs
@@ -145,7 +145,7 @@ build-your-first-robot/
 ├── README.md
 ├── Wiring_Diagram.jpeg
 ├── Part1-Components/
-│   └── components-list.pdf
+│   └── Components_List.docx
 ├── Part2-Testing/
 │   ├── LED_Blink/
 │   │   └── LED_Blink.ino
