@@ -155,11 +155,12 @@ build-your-first-robot/
 │       └── Motor_Test.ino
 ├── Part3-Design/
 │   ├── chassis-layout.jpg
-│   ├── wiring-diagram.jpg
-│   └── measurements.pdf
+│   └── wiring-diagram.jpg
 └── Part4-Final-Robot/
-    ├── Linefollower.ino
-    └── ObjAvoidance.ino
+    ├── Linefollower/
+	│   └── Linefollower.ino
+    └── ObjAvoidance/
+	    └── ObjAvoidance.ino
 ```
 
 Arduino sketches (`.ino`) are kept inside folders with matching names for convenient opening in the Arduino IDE.
