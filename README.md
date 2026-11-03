@@ -158,7 +158,7 @@ build-your-first-robot/
 │   └── wiring-diagram.jpg
 └── Part4-Final-Robot/
     ├── Linefollower/
-	│   └── Linefollower.ino
+    │   └── Linefollower.ino
     └── ObjAvoidance/
 	    └── ObjAvoidance.ino
 ```
